@@ -2,8 +2,11 @@
 Databases is one of the first courses taken in Computer Science at Cambridge.
 
 ## What is a database management system? (DBMS)
+Database management interfaces are often very large when programming, as they often include querying languages. 
 
+Databases use [[CRUD]] and [[ACID]] transactions, the fact that they use ACID transactions is what makes an operating system's file system not be thought of as a database. [[ACID]] is particularly useful when allowing for numerous concurrent users. 
 
+There are two common categorisation of databases [[NoSQL]] and [[SQL]]. Although, both of these databases often steal ideas from the other side. 
 
 ## Databases focuses on three specific data models
 ### [[Relational Model]]
